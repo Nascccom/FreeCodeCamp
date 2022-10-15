@@ -20,5 +20,4 @@ function countSheeps(arrayOfSheep) {
                   true,  true,  true,  true ,
                   false, false, true,  true ];
     
-    return array1.filter(items => items === true).length;
-    }
+    return array1.filter(items => items === true).length;}
