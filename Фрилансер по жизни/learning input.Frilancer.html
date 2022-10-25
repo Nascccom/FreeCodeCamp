@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Знакомство с HTML - тегами (формы)</title>
+</head>
+<body>
+    
+    <form action="#" method="get">
+        <div>
+            <p>Name</p>
+            <input type="text" name="Username" value="" tabindex="1" placeholder="Input your name">
+        </div>
+        <div>
+            <p>Password</p>
+            <input type="password" name="Userpass" value="" tabindex="2">
+        </div>
+        <div>
+            <p>Number phone</p>
+            <input type="tel" name="Userphone" value="" tabindex="3">
+        </div>
+        <div>
+            <p>Sex</p>
+            <div>
+                <p><input checked type="radio" name="gender" value="Male" tabindex="4">Male</p>
+            </div>
+            <div>
+                <p><input type="radio" name="gender" value="Female" tabindex="4">Female</p>
+            </div>
+        </div>
+        <div>
+            <p>Property</p>
+            <div>
+                <p><input checked type="checkbox" name=">Bicycle" value="Yes" tabindex="5">Bicycle</p>
+            </div>
+            <div>
+                <p><input type="checkbox" name="Car" value="Yes" tabindex="6">Car</p>
+            </div>
+            <div>
+                <p><input disabled type="checkbox" name="Flat" value="Yes" tabindex="7">Flat</p>
+            </div>
+        </div>
+        <div>
+            <p>Additional information</p>
+            <textarea name="text"  tabindex="8"></textarea>
+        </div>
+        <div>
+            <p>Attach photo</p>
+            <input type="file" name="photo" tabindex="9">
+        </div>
+        <div>
+            <p>Favorite color</p>
+            <select name="color" tabindex="10">
+                <option value="red">Red</option>
+                <option value="Green">Green</option>
+                <option selected value="yellow">Yellow</option>
+            </select>
+        </div>
+        <div>
+            <p>Action</p>
+            <button type="submit">Send</button>
+            <button type="reset">Clear</button>
+        </div>
+        
+    </form>
+
+    
+    
+</body>
+</html>
